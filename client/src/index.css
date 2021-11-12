@@ -1,0 +1,109 @@
+body {
+  font-family: 'Rubik', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Rubik Mono One', sans-serif;
+}
+
+.small {
+  font-weight: 300;
+  font-style: italic;
+}
+.fixed{
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+.app-background-color{
+  background-color: white;
+  color:gray
+}
+.font-white{
+  color: white;
+}
+.background-color{
+  background-color: gray;
+  color: white;
+}
+.btn-outline{
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 10px;
+}
+.button-width{
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.logButton:hover{
+  border: 1px solid;
+  background-color: gray;
+  color: white;
+  border-radius:10px ;
+  text-decoration: none;
+}
+.logButton{
+  text-decoration: none;
+}
+.font-normal{
+  font-style: normal;
+}
+.app-button{
+  background-color: gray;
+  color:white;
+  border: none;
+}
+.app-font-color{
+  color:gray
+}
+.app-button:hover{
+  background-color: gray;
+  color:white;
+}
+.app-button::click{
+  background-color: gray;
+  color:white;
+}
+.card{
+  margin: 25px;
+}
+.search-card{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-bottom: 0px;
+  width: 100%;
+  box-shadow: 4px 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+.img{
+  padding: 10px;
+  height: 250px;
+  width:250px
+}
+.app-button-book{
+  margin: 10px;
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.margin-top-50px{
+  margin-top: 50px;
+  ;
+}
+
+.title{
+  font-size: 24px;
+}
+
+.title-lg{
+  font-size: 26px;
+}
+.login-page{
+  background-color: gray;
+  color:white;
+}
